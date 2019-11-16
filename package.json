@@ -1,0 +1,27 @@
+{
+  "name": "cypress-gh-action-example",
+  "version": "1.0.0",
+  "description": "Example running Cypress tests inside GitHub Action",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-gh-action-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "github-action",
+    "example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-gh-action-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-gh-action-example#readme",
+  "devDependencies": {
+    "cypress": "3.6.1"
+  }
+}

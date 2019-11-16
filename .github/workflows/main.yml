@@ -4,7 +4,16 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+
       - name: Checkout
         uses: actions/checkout@v1
+
+      - run: node -v
       - name: Cypress run
         uses: cypress-io/github-action@v1
+
+      - run: node -v

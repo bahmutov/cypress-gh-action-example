@@ -24,7 +24,7 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           record: true
-          group: Tests on ${{ matrix.node }}
+          group: Tests on Node v${{ matrix.node }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 

@@ -21,10 +21,11 @@ jobs:
       # run Cypress tests and record them under the same run
       # associated with commit SHA and just give a different group name
       - name: Cypress run
-        uses: cypress-io/github-action@v1
+        uses: cypress-io/github-action@e5da79d
         with:
           record: true
           group: Tests on Node v${{ matrix.node }}
+          cache-key: node-${{ matrix.node }}-on-${{ runner.os }}-hash-${{ hashFiles('yarn.lock') }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 

@@ -3,17 +3,29 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    # let's make sure our "app" works on several versions of Node
+    strategy:
+      matrix:
+        node: [10, 12]
     steps:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 10
+          node-version: ${{ matrix.node }}
+      - run: node -v
 
       - name: Checkout
         uses: actions/checkout@v1
 
-      - run: node -v
+      # run Cypress tests and record them under the same run
+      # associated with commit SHA and just give a different group name
       - name: Cypress run
         uses: cypress-io/github-action@v1
+        with:
+          record: true
+          parallel: true
+          group: Tests on ${{ matrix.node }}
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
       - run: node -v

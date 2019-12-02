@@ -21,7 +21,7 @@ jobs:
       # run Cypress tests and record them under the same run
       # associated with commit SHA and just give a different group name
       - name: Cypress run
-        uses: cypress-io/github-action@4e415ee
+        uses: cypress-io/github-action@593065e
         with:
           record: true
           group: Tests on Node v${{ matrix.node }}

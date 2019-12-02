@@ -6,7 +6,7 @@ jobs:
     name: Artifacts
     steps:
       - uses: actions/checkout@v1
-      - uses: cypress-io/github-action@4e415ee
+      - uses: cypress-io/github-action@593065e
       # after the test run completes
       # store videos and any screenshots
       # NOTE: screenshots will be generated only if E2E test failed

@@ -8,6 +8,7 @@ Workflow | Description
 [.github/workflows/main.yml](.github/workflows/main.yml) | Runs tests on different versions of Node
 [.github/workflows/chrome.yml](.github/workflows/chrome.yml) | Runs tests using Chrome browser, rather than Electron
 [.github/workflows/artifacts.yml](.github/workflows/artifacts.yml) | Stores generated run video and any screenshots using CI artifacts
+[.github/workflows/custom-container.yml](.github/workflows/custom-container.yml) | Runs tests using custom Docker image
 
 ## Main
 

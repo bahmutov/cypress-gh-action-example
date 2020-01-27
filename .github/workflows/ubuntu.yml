@@ -4,6 +4,8 @@ jobs:
   ubuntu-16:
     runs-on: ubuntu-16.04
     steps:
+      # print Ubuntu version
+      - run: cat /etc/lsb-release
       - name: Checkout
         uses: actions/checkout@v1
 
@@ -13,6 +15,8 @@ jobs:
   ubuntu-18:
     runs-on: ubuntu-18.04
     steps:
+      # print Ubuntu version
+      - run: cat /etc/lsb-release
       - name: Checkout
         uses: actions/checkout@v1
 

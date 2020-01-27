@@ -3,12 +3,12 @@
 
 Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to run [Cypress](https://www.cypress.io) end-to-end tests
 
-Workflow | Status | Description
+.github/workflows | Status | Description
 --- | --- | ---
-[.github/workflows/main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
-[.github/workflows/chrome.yml](.github/workflows/chrome.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/E2E%20on%20Chrome/badge.svg?branch=master) | Runs tests using Chrome browser, rather than Electron
-[.github/workflows/artifacts.yml](.github/workflows/artifacts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Artifacts/badge.svg?branch=master) |Stores generated run video and any screenshots using CI artifacts
-[.github/workflows/custom-container.yml](.github/workflows/custom-container.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Custom%20container/badge.svg?branch=master) | Runs tests using custom Docker image
+[artifacts.yml](.github/workflows/artifacts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Artifacts/badge.svg?branch=master) |Stores generated run video and any screenshots using CI artifacts
+[chrome.yml](.github/workflows/chrome.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/E2E%20on%20Chrome/badge.svg?branch=master) | Runs tests using Chrome browser, rather than Electron
+[main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
+[custom-container.yml](.github/workflows/custom-container.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Custom%20container/badge.svg?branch=master) | Runs tests using custom Docker image
 
 ## Main
 

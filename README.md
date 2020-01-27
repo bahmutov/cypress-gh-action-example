@@ -5,7 +5,8 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 
 .github/workflows | Status | Description
 --- | --- | ---
-[artifacts.yml](.github/workflows/artifacts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Artifacts/badge.svg?branch=master) |Stores generated run video and any screenshots using CI artifacts
+[ubuntu.yml](.github/workflows/ubuntu.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Ubuntu/badge.svg?branch=master) | Runs E2E tests on Ubuntu 16 and Ubuntu 18
+[artifacts.yml](.github/workflows/artifacts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Artifacts/badge.svg?branch=master) | Stores generated run video and any screenshots using CI artifacts
 [chrome.yml](.github/workflows/chrome.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/E2E%20on%20Chrome/badge.svg?branch=master) | Runs tests using Chrome browser, rather than Electron
 [main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
 [custom-container.yml](.github/workflows/custom-container.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Custom%20container/badge.svg?branch=master) | Runs tests using custom Docker image

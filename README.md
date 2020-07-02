@@ -1,7 +1,7 @@
 # cypress-gh-action-example [![renovate-app badge][renovate-badge]][renovate-app]
 > Example running Cypress tests inside GitHub Action
 
-Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to run [Cypress](https://www.cypress.io) end-to-end tests
+Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to run [Cypress](https://www.cypress.io) end-to-end tests. Runs recorded at [Cypress Dashboard](https://dashboard.cypress.io/projects/yz8qku)
 
 .github/workflows | Status | Description
 --- | --- | ---
@@ -11,6 +11,7 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 [chrome.yml](.github/workflows/chrome.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/E2E%20on%20Chrome/badge.svg?branch=master) | Runs tests using Chrome browser, rather than Electron
 [main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
 [custom-container.yml](.github/workflows/custom-container.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Custom%20container/badge.svg?branch=master) | Runs tests using custom Docker image
+[merge.yml](.github/workflows/merge.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/merge/badge.svg?branch=master) | Shows how to set custom commit message for pull requests workflows
 
 ## Main
 

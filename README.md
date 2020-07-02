@@ -1,7 +1,7 @@
 # cypress-gh-action-example [![renovate-app badge][renovate-badge]][renovate-app]
 > Example running Cypress tests inside GitHub Action
 
-Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to run [Cypress](https://www.cypress.io) end-to-end tests
+Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to run [Cypress](https://www.cypress.io) end-to-end tests. Runs recorded at [Cypress Dashboard](https://dashboard.cypress.io/projects/yz8qku)
 
 .github/workflows | Status | Description
 --- | --- | ---

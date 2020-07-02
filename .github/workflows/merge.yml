@@ -1,12 +1,13 @@
 name: merge
 # run this action on Push and on Pull Request
-# to demonstrate the difference in commit SHA
+# to demonstrate the difference in commit message
 on: [push, pull_request]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
     name: e2e
     steps:
+      # you can find all sorts of interesting stuff in the event object
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
@@ -20,8 +21,12 @@ jobs:
         with:
           record: true
           group: merge
+          # tag will be either "push" or "pull_request"
           tag: ${{ github.event_name }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          # github.event.pull_request.title
+          # - if the event is push, the title will be undefined
+          # and Cypress will get the commit message from Git information
+          # - if the event is pull_request, then we set the commit
+          # message to the pull request title
           COMMIT_INFO_MESSAGE: ${{ github.event.pull_request.title }}

@@ -13,6 +13,6 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           record: true
-          group: ${{ github.event.event_type }}
+          group: ${{ github.event.type }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}

@@ -1,5 +1,6 @@
-name: pr
+name: merge
 # run this action on Push and on Pull Request
+# to demonstrate the difference in commit SHA
 on: [push, pull_request]
 jobs:
   cypress-run:
@@ -13,6 +14,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           record: true
-          group: ${{ github.event.type }}
+          group: merge
+          tag: ${{ github.event.type }}
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}

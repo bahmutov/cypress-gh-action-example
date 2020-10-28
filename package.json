@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-gh-action-example#readme",
   "devDependencies": {
-    "cypress": "5.4.0",
+    "cypress": "5.5.0",
     "cypress-expect": "2.1.2"
   }
 }

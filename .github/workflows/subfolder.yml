@@ -1,0 +1,33 @@
+name: subfolder
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Print versions
+        run: |
+          which npm
+          npm --version
+          which yarn
+          yarn --version
+
+      # first, install dependencies and Cypress
+      # from the root folder using the lock file
+      # note: because there is lerna.json file and lerna dependency
+      # the single "yarn" install in the root
+      # will install packages in all subfolders and link them
+      - name: Cypress install
+        uses: cypress-io/github-action@v2
+        with:
+          runTests: false
+
+      # now run the tests from the subfolder
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          install: false
+          working-directory: packages/e2e
+          start: yarn start-server

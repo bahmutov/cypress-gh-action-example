@@ -15,6 +15,7 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 [merge.yml](.github/workflows/merge.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/merge/badge.svg?branch=master) | Shows how to set custom commit message for pull requests workflows
 [serve.yml](.github/workflows/serve.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/serve/badge.svg?branch=master) | Shows workflow with server start command and a separate config file
 [separate-install.yml](.github/workflows/separate-install.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/install/badge.svg?branch=master) | Workflow where install and tests are in separate steps
+[subfolder.yml](.github/workflows/subfolder.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/subfolder/badge.svg?branch=master) | Installing and testing from a subfolder
 
 ## Main
 

@@ -1,0 +1,12 @@
+{
+  "name": "test-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start-server": "serve -s -l 3000 ../../public"
+  },
+  "dependencies": {
+    "cypress": "5.5.0",
+    "serve": "11.3.2"
+  }
+}

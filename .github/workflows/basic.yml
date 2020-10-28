@@ -1,0 +1,14 @@
+name: basic
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        # execute Cypress using a custom test command
+        with:
+          # verifies the number of passing tests
+          command: npm run expect

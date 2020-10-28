@@ -23,10 +23,8 @@ jobs:
 
       # now run the tests from the subfolder
       - name: Cypress run
-        uses: cypress-io/github-action@3a99102
+        uses: cypress-io/github-action@v2
         with:
           install: false
           working-directory: packages/e2e
-          start: npm --version
-          # start: yarn --version
-          # start: yarn start-server
+          start: yarn start-server

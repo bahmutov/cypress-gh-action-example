@@ -12,3 +12,11 @@ jobs:
         with:
           # verifies the number of passing tests
           command: npm run expect
+          env:
+            lastName: Smith
+        # when setting "plain" environment variables
+        # if we want to pass Cypress to read them
+        # we need to prefix them with "CYPRESS_"
+        # https://on.cypress.io/environment-variables
+        env:
+          CYPRESS_firstName: Joe

@@ -11,6 +11,10 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        with:
+          env: lastName=Smith
+        env:
+          CYPRESS_firstName: Joe
 
   ubuntu-18:
     runs-on: ubuntu-18.04
@@ -22,3 +26,7 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        with:
+          env: lastName=Smith
+        env:
+          CYPRESS_firstName: Joe

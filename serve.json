@@ -1,4 +1,8 @@
 {
   "baseUrl": "http://localhost:5000",
+  "fixturesFolder": false,
+  "supportFile": false,
+  "pluginsFile": false,
+  "integrationFolder": "cypress/server",
   "$schema": "https://on.cypress.io/cypress.schema.json"
 }

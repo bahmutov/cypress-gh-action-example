@@ -23,7 +23,9 @@ jobs:
           group: merge
           # tag will be either "push" or "pull_request"
           tag: ${{ github.event_name }}
+          env: lastName=Smith
         env:
+          CYPRESS_firstName: Joe
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # - if the event is push, the title will be undefined
           # and Cypress will get the commit message from Git information

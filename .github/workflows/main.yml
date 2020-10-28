@@ -26,7 +26,9 @@ jobs:
           record: true
           group: Tests on Node v${{ matrix.node }}
           cache-key: node-v${{ matrix.node }}-on-${{ runner.os }}-hash-${{ hashFiles('yarn.lock') }}
+          env: lastName=Smith
         env:
+          CYPRESS_firstName: Joe
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
       - run: node -v

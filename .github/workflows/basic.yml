@@ -11,10 +11,9 @@ jobs:
         # execute Cypress using a custom test command
         with:
           # verifies the number of passing tests
-          command: npm run expect
-          # pass any specific variables to Cypress
-          # to read using Cypress.env("lastName")
-          env: lastName=Smith
+          # and passes a variable to Cypress
+          # to be read using Cypress.env("lastName")
+          command: npm run expect -- --env lastName=Smith
         # when setting "plain" environment variables
         # if we want to pass Cypress to read them
         # we need to prefix them with "CYPRESS_"

@@ -1,0 +1,13 @@
+name: subfolder
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: packages/e2e
+          start: yarn start-server

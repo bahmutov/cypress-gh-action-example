@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example running Cypress tests inside GitHub Action",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "cypress run",
     "expect": "cypress-expect --passing 4",

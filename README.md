@@ -5,6 +5,7 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 
 .github/workflows | Status | Description
 --- | --- | ---
+[basic.yml](.github/workflows/basic.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/basic/badge.svg?branch=master) | Basic tests example
 [tags.yml](.github/workflows/tags.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/tags/badge.svg?branch=master) | Recorded runs with tags using different Node versions
 [ubuntu.yml](.github/workflows/ubuntu.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Ubuntu/badge.svg?branch=master) | Runs E2E tests on Ubuntu 16 and Ubuntu 18
 [artifacts.yml](.github/workflows/artifacts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Artifacts/badge.svg?branch=master) | Stores generated run video and any screenshots using CI artifacts

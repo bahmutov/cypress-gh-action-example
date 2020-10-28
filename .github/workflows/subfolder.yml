@@ -7,6 +7,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Print versions
+        run: |
+          which npm
+          npm --version
+          which yarn
+          yarn --version
+
       # first, install dependencies and Cypress
       # from the root folder using the lock file
       - name: Cypress install
@@ -20,5 +27,6 @@ jobs:
         with:
           install: false
           working-directory: packages/e2e
-          start: yarn --version
+          start: npm --version
+          # start: yarn --version
           # start: yarn start-server

@@ -13,6 +13,8 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 [main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
 [custom-container.yml](.github/workflows/custom-container.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Custom%20container/badge.svg?branch=master) | Runs tests using custom Docker image
 [merge.yml](.github/workflows/merge.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/merge/badge.svg?branch=master) | Shows how to set custom commit message for pull requests workflows
+[serve.yml](.github/workflows/serve.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/serve/badge.svg?branch=master) | Shows workflow with server start command and a separate config file
+[separate-install.yml](.github/workflows/separate-install.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/install/badge.svg?branch=master) | Workflow where install and tests are in separate steps
 
 ## Main
 

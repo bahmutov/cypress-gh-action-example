@@ -20,4 +20,5 @@ jobs:
         with:
           install: false
           working-directory: packages/e2e
-          start: yarn start-server
+          start: yarn --version
+          # start: yarn start-server

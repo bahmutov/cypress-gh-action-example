@@ -3,6 +3,6 @@
   "fixturesFolder": false,
   "supportFile": false,
   "pluginsFile": false,
-  "integrationFolder": "cypress/server",
+  "integrationFolder": "cypress/serve",
   "$schema": "https://on.cypress.io/cypress.schema.json"
 }

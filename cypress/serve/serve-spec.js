@@ -3,6 +3,6 @@
 describe('Served app', () => {
   it('loads', () => {
     cy.visit('/')
-    cy.contains('Server')
+    cy.contains('Serve')
   })
 })

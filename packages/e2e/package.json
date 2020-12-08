@@ -6,7 +6,7 @@
     "start-server": "serve -s -l 3000 ../../public"
   },
   "dependencies": {
-    "cypress": "5.6.0",
+    "cypress": "6.1.0",
     "serve": "11.3.2"
   }
 }

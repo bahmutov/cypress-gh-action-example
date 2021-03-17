@@ -2,7 +2,7 @@ name: Custom container
 on: [push]
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     container: cypress/browsers:node12.13.0-chrome78-ff70
     name: Tests inside custom image
     steps:

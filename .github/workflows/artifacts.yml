@@ -2,7 +2,7 @@ name: Artifacts
 on: [push]
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     name: Artifacts
     steps:
       - uses: actions/checkout@v2

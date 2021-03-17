@@ -2,7 +2,7 @@ name: tags
 on: [push]
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     # let's make sure our "app" works on several versions of Node
     strategy:
       matrix:

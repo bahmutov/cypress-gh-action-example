@@ -1,0 +1,19 @@
+name: timeouts
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-20.04
+    # stop the job if it runs over 10 minutes
+    # to prevent a hanging process from using all your CI minutes
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        # you can specify individual step timeout too
+        timeout-minutes: 5
+        with:
+          command: npm run expect -- --env lastName=Smith
+        env:
+          CYPRESS_firstName: Joe

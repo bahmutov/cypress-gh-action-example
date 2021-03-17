@@ -5,17 +5,18 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 
 .github/workflows | Status | Description
 --- | --- | ---
-[basic.yml](.github/workflows/basic.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/basic/badge.svg?branch=master) | Basic tests example
-[tags.yml](.github/workflows/tags.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/tags/badge.svg?branch=master) | Recorded runs with tags using different Node versions
-[ubuntu.yml](.github/workflows/ubuntu.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Ubuntu/badge.svg?branch=master) | Runs E2E tests on Ubuntu 16 and Ubuntu 18
 [artifacts.yml](.github/workflows/artifacts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Artifacts/badge.svg?branch=master) | Stores generated run video and any screenshots using CI artifacts
+[basic.yml](.github/workflows/basic.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/basic/badge.svg?branch=master) | Basic tests example
 [chrome.yml](.github/workflows/chrome.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/E2E%20on%20Chrome/badge.svg?branch=master) | Runs tests using Chrome browser, rather than Electron
-[main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
 [custom-container.yml](.github/workflows/custom-container.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Custom%20container/badge.svg?branch=master) | Runs tests using custom Docker image
+[main.yml](.github/workflows/main.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/End-to-end%20tests/badge.svg?branch=master) | Runs tests on different versions of Node
 [merge.yml](.github/workflows/merge.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/merge/badge.svg?branch=master) | Shows how to set custom commit message for pull requests workflows
-[serve.yml](.github/workflows/serve.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/serve/badge.svg?branch=master) | Shows workflow with server start command and a separate config file
 [separate-install.yml](.github/workflows/separate-install.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/install/badge.svg?branch=master) | Workflow where install and tests are in separate steps
+[serve.yml](.github/workflows/serve.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/serve/badge.svg?branch=master) | Shows workflow with server start command and a separate config file
 [subfolder.yml](.github/workflows/subfolder.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/subfolder/badge.svg?branch=master) | Installing and testing from a subfolder
+[tags.yml](.github/workflows/tags.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/tags/badge.svg?branch=master) | Recorded runs with tags using different Node versions
+[timeouts.yml](.github/workflows/timeouts.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/timeouts/badge.svg?branch=master) | Stops the job if it runs over the time limit
+[ubuntu.yml](.github/workflows/ubuntu.yml) | ![status](https://github.com/bahmutov/cypress-gh-action-example/workflows/Ubuntu/badge.svg?branch=master) | Runs E2E tests on Ubuntu 16 and Ubuntu 18
 
 ## Main
 

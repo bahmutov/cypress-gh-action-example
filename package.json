@@ -29,7 +29,7 @@
     "cypress": "6.8.0",
     "cypress-expect": "2.2.1",
     "serve": "11.3.2",
-    "lerna": "3.22.1"
+    "lerna": "4.0.0"
   },
   "workspaces": [
     "packages/*"

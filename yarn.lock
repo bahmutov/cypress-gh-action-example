@@ -23,6 +23,14 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@bahmutov/all-paths@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@bahmutov/all-paths/-/all-paths-1.0.2.tgz#9ae0dcdf9022dd6e5e14d7fda3479e6a330d035b"
+  integrity sha512-kqeMYh7e9yXWSm7LdQp4BZ4Igxk25lM2Jtw4+G83ro5nFvbHAp3ZmY2na/AVk57+CpZDH/sCXxyKFwkdisnkbw==
+  dependencies:
+    lodash.isplainobject "4.0.6"
+    lodash.range "3.2.0"
+
 "@cypress/listr-verbose-renderer@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@cypress/listr-verbose-renderer/-/listr-verbose-renderer-0.4.1.tgz#a77492f4b11dcc7c446a34b3e28721afd33c642a"
@@ -1146,10 +1154,10 @@ arg@2.0.0:
   resolved "https://registry.yarnpkg.com/arg/-/arg-2.0.0.tgz#c06e7ff69ab05b3a4a03ebe0407fac4cba657545"
   integrity sha512-XxNTUzKnz1ctK3ZIcI2XUPlD96wbHP2nGqkPKpvk/HNRlPveYrXIVSTk9m3LcqOgDPg3B1nMvdV/K8wZd7PG4w==
 
-arg@4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/arg/-/arg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
-  integrity sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==
+arg@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.0.tgz#a20e2bb5710e82950a516b3f933fee5ed478be90"
+  integrity sha512-4P8Zm2H+BRS+c/xX1LrHw0qKpEhdlZjLCgWy+d78T9vqa2Z2SiD2wMrYuWIAFy5IZUD7nnNXroRttz+0RzlrzQ==
 
 array-differ@^3.0.0:
   version "3.0.0"
@@ -1793,12 +1801,13 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cypress-expect@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.3.1.tgz#172e15c7f15b935f6d0d7245f72af22a86df15d1"
-  integrity sha512-GaeHeOEBFJ8u1Jx2cy/EPnxIA1DW6Bj1ouwnPESwfe1LAO4wmrDPRuuWFpe+7GytVrvkdrnfi7nlclhIHxWwfw==
+cypress-expect@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.4.0.tgz#dcd5db7a17a7490c55cd68bbdb55018b56d00cf9"
+  integrity sha512-XcgL94QIpPDwAOsFWqOitJ23r4oagSFjh/0m56Qdx++JBkT/gwU1K+oCTHFSRsIJsU+OsuUTvOvZ8g9HYt05CQ==
   dependencies:
-    arg "4.1.3"
+    "@bahmutov/all-paths" "1.0.2"
+    arg "5.0.0"
     debug "4.3.1"
     ramda "0.27.1"
 
@@ -3234,10 +3243,20 @@ lodash.ismatch@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.ismatch/-/lodash.ismatch-4.4.0.tgz#756cb5150ca3ba6f11085a78849645f188f85f37"
   integrity sha1-dWy1FQyjum8RCFp4hJZF8Yj4Xzc=
 
+lodash.isplainobject@4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+
 lodash.once@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
+
+lodash.range@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.range/-/lodash.range-3.2.0.tgz#f461e588f66683f7eadeade513e38a69a565a15d"
+  integrity sha1-9GHliPZmg/fq3q3lE+OKaaVloV0=
 
 lodash.sortby@^4.7.0:
   version "4.7.0"

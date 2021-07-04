@@ -1768,14 +1768,14 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cypress-expect@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.4.1.tgz#23669b04c9b45d435619f59460f3dfa42bed85a9"
-  integrity sha512-pvZ1udMsvv0lmL/s3kQR0wSQohHlkCXWq8G1oRIcNkJ4KV74QayEQtBLGTdGA3XzJAyexVp8Xn1DwrdhgjnS9A==
+cypress-expect@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.4.2.tgz#cbac1d5bffdd5172569d4936467805b1abd972ab"
+  integrity sha512-E/aNgBKhuXl2B6Kdw3u45enhueq6s8AiBFouCpTCL2YHUzo6ejJI25VGpt/Sd5KfzE7ojSIWkjnXmzeeOxXfrw==
   dependencies:
     "@bahmutov/all-paths" "1.0.2"
     arg "5.0.0"
-    debug "4.3.1"
+    debug "4.3.2"
     ramda "0.27.1"
 
 cypress@7.6.0:
@@ -1854,10 +1854,17 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@4.3.1, debug@^4.1.0, debug@^4.1.1:
+debug@4, debug@^4.1.0, debug@^4.1.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+  dependencies:
+    ms "2.1.2"
+
+debug@4.3.2, debug@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
 
@@ -1867,13 +1874,6 @@ debug@^3.1.0:
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
   dependencies:
     ms "^2.1.1"
-
-debug@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
-  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
-  dependencies:
-    ms "2.1.2"
 
 debuglog@^1.0.1:
   version "1.0.1"

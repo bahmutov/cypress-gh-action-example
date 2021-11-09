@@ -21,7 +21,7 @@ Uses [cypress-io/github-action](https://github.com/cypress-io/github-action) to 
 
 ## Main
 
-Example image of a test run across Node v12 and v14 recorded on Cypress Dashboard from the [.github/workflows/main.yml](.github/workflows/main.yml) workflow
+Example image of a test run across Node v12 and v14 recorded on Cypress Dashboard from the [.github/workflows/main.yml](.github/workflows/main.yml) workflow.
 
 ![Dashboard run recording](images/parallel-run.png)
 

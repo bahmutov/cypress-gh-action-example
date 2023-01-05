@@ -1,31 +1,31 @@
 name: Ubuntu
 on: [push]
 jobs:
-  ubuntu-16:
-    runs-on: ubuntu-16.04
+  ubuntu-20:
+    runs-on: ubuntu-20.04
     steps:
       # print Ubuntu version
       - run: cat /etc/lsb-release
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v5
         with:
           env: lastName=Smith
         env:
           CYPRESS_firstName: Joe
 
-  ubuntu-18:
-    runs-on: ubuntu-18.04
+  ubuntu-22:
+    runs-on: ubuntu-22.04
     steps:
       # print Ubuntu version
       - run: cat /etc/lsb-release
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Cypress run
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v5
         with:
           env: lastName=Smith
         env:

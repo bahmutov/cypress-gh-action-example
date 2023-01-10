@@ -13,7 +13,7 @@ jobs:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
 
-      - name: Checkout
+      - name: Checkout 🛎
         uses: actions/checkout@v2
 
       - name: Cypress run on ${{ github.event_name }}

@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       # only install the dependencies without running any tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
@@ -32,7 +32,7 @@ jobs:
     needs: install-job
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Download built folders ⏬
         uses: actions/download-artifact@v2

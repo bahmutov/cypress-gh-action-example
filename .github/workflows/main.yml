@@ -16,7 +16,7 @@ jobs:
       - run: node -v
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # run Cypress tests and record them under the same run
       # associated with commit SHA and just give a different group name

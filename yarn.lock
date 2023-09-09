@@ -1146,10 +1146,10 @@ arg@2.0.0:
   resolved "https://registry.yarnpkg.com/arg/-/arg-2.0.0.tgz#c06e7ff69ab05b3a4a03ebe0407fac4cba657545"
   integrity sha512-XxNTUzKnz1ctK3ZIcI2XUPlD96wbHP2nGqkPKpvk/HNRlPveYrXIVSTk9m3LcqOgDPg3B1nMvdV/K8wZd7PG4w==
 
-arg@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.1.tgz#eb0c9a8f77786cad2af8ff2b862899842d7b6adb"
-  integrity sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==
+arg@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.2.tgz#c81433cc427c92c4dcf4865142dbca6f15acd59c"
+  integrity sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==
 
 array-differ@^3.0.0:
   version "3.0.0"
@@ -1768,14 +1768,14 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-cypress-expect@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.5.1.tgz#3e5ef127949908fefa080ead1eafc6766c992f88"
-  integrity sha512-SaW9XOjNcnCxYsaxrUGNuj4IeuzL/qGZnMve9TMgEYKrZyVyXFXX8Xi+DI2dVd2yjY2dP7AY6zdxCuIIXGj7Qg==
+cypress-expect@2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.5.3.tgz#77eeb28b83dd1b309b7f1baa0c86b19f7826aa22"
+  integrity sha512-TgF72ZYnWSyAwlzcrJ5y5a44fEHdslVU3sSUqC7+7bqZuDNYT1UQUabagEyr76L/3lLO9kLGLh3JABi2Uveyag==
   dependencies:
     "@bahmutov/all-paths" "1.0.2"
-    arg "5.0.1"
-    debug "4.3.3"
+    arg "5.0.2"
+    debug "4.3.4"
     ramda "0.27.1"
 
 cypress@7.7.0:
@@ -1861,10 +1861,10 @@ debug@4, debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
-debug@4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
-  integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
+debug@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
   dependencies:
     ms "2.1.2"
 

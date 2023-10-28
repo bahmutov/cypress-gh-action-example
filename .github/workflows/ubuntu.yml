@@ -7,7 +7,7 @@ jobs:
       # print Ubuntu version
       - run: cat /etc/lsb-release
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Cypress run
         uses: cypress-io/github-action@v5
@@ -22,7 +22,7 @@ jobs:
       # print Ubuntu version
       - run: cat /etc/lsb-release
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Cypress run
         uses: cypress-io/github-action@v5

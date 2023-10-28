@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-20.04
     name: Artifacts
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: cypress-io/github-action@v2
         with:
           env: lastName=Smith

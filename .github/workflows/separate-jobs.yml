@@ -6,7 +6,7 @@ on: [push]
 # 2. the "test-job" downloads the build site and runs tests
 jobs:
   install-job:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -28,7 +28,7 @@ jobs:
             public
 
   test-job:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     needs: install-job
     steps:
       - name: Checkout

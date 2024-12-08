@@ -2,7 +2,7 @@ name: Ubuntu
 on: [push]
 jobs:
   ubuntu-20:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       # print Ubuntu version
       - run: cat /etc/lsb-release
@@ -17,7 +17,7 @@ jobs:
           CYPRESS_firstName: Joe
 
   ubuntu-22:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       # print Ubuntu version
       - run: cat /etc/lsb-release

@@ -27,7 +27,7 @@
   "homepage": "https://github.com/bahmutov/cypress-gh-action-example#readme",
   "devDependencies": {
     "cypress": "7.7.0",
-    "cypress-expect": "2.5.1",
+    "cypress-expect": "2.5.3",
     "serve": "11.3.2",
     "lerna": "4.0.0"
   },
